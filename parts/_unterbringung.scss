@@ -1,0 +1,30 @@
+
+.unter{
+    margin:auto;
+    .sidebar{
+        height:200px;
+        @include media-breakpoint-up(md){
+            height:500px;
+        }
+    }
+   
+    p{
+        font-size: 1rem;
+        @include media-breakpoint-up(md){
+            font-size:1.25rem;
+        }
+    }
+   
+    div.inhalt{
+        height:800px;
+    }
+   
+    @include media-breakpoint-up(md){
+        div.inhalt{
+            height:500px;
+             
+        }
+      }
+    
+}  
+

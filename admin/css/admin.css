@@ -1,0 +1,10 @@
+.contact-delete-form{
+    display:inline; 
+    /* verhält sich wie ein inline element,nimmt also nicht mehr eine vollständige box ein */
+}
+.contact-delete-form button{
+    padding: 0px;
+    border: 0px solid transparent;
+    vertical-align: inherit;
+    /* inherit- standard werte */
+}

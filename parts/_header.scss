@@ -1,0 +1,31 @@
+$header-size:300px;
+$header-size-sm:350px;
+$header-size-md:400px;
+$header-size-lg:500px;
+$header-size-xl:700px;
+$img-size:200px;
+
+header {
+    height: 150px;
+    background-image:    url(../images/header.png);
+    background-size:     cover;                    
+    background-repeat:   no-repeat;
+    background-position: center center;  
+    @include media-breakpoint-up(sm){
+        height:250px;
+    }
+    @include media-breakpoint-up(md){
+        height:300px;
+    }
+    @include media-breakpoint-up(lg){
+        height:400px;
+    }
+    @include media-breakpoint-up(xl){
+        height:450px;
+    }
+      
+      
+
+
+ 
+}

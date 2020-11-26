@@ -1,0 +1,41 @@
+$font-size-base: 1rem; /*gefunden in _variables.scss*/ 
+$primary: blue;
+$light: white;
+$white: white;
+$secondary: #dedede;
+
+
+
+
+$section-color-alternate:#f7f7f7;
+$section-padding:50px;  
+$header-jumbotron-height: 450px;
+
+@import "../bootstrap-4.4.1/scss/bootstrap";
+@import "../parts/_navbar";
+@import "../parts/_header";
+@import "../parts/_home"; 
+@import "../parts/_unterbringung";
+@import "../parts/_contact";
+@import "../parts/_footer";
+//Page Menu//  
+
+#page{
+    max-width:100%;
+} 
+ 
+body{
+    background-color:#bb727a;
+}
+.sidebar{
+    height:200px;
+    background-color: #ededed;
+    @include media-breakpoint-up(md){
+        height:500px;
+    }
+}
+p{
+@include media-breakpoint-up(md){
+    // font-size:2rem;
+}
+}

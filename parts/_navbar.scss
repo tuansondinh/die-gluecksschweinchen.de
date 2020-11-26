@@ -1,0 +1,28 @@
+
+nav{
+    background-color: #991724;
+ 
+    a{
+        font-size: larger;
+       
+    }
+    a:hover{
+        color:white;
+    }
+}
+#link{
+    color:$secondary;
+}
+#link:hover{
+    color:white;
+}
+
+// .brand
+// {
+//     display:none;
+//     color:white;
+//     @include media-breakpoint-up(lg){
+//        display:block;
+//     }   
+
+// }
