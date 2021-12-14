@@ -1,24 +1,33 @@
 <section class="home row">
   
-  <div class="bg-light col-md-9 order-md-2 justify-content-center">
+  <div class="inhalt bg-light col-md-8 order-md-2 justify-content-center">
 
   
-    <p class="pt-4 font-weight-bold"> Unsere Leistungen:</p>
+  <p class="ueberschrift"> Unsere Leistungen:</p>
+
   
-    <p>
-    3x täglich Frischfutter, unbegrenzt Heu (Premium Heu Activia), 2x wöchentlich frische oder getrocknete Kräuter, auf Wunsch getreidefreies Trockenfutter, regelmäßige Erneuerung verschmutzter Einstreu, Gesundheitskontrolle der Tiere.
-    </p>
-    <p class="font-weight-bold"> Preise:</p>
-    <p>Wir berechnen 4,00 EUR pro Nacht und Tier für die Betreuung. 
-Sonderabsprachen bei mehreren Tieren und/ oder längeren Aufenthalten möglich. Diese Kosten sind ein All-Inklusive-Preis, der das Frischfutter und das Heu, die Einstreu, die Endreinigung des Käfigs/Geheges und aller Einrichtungsgegenstände (gemäß Desinfektionsplan) sowie die Abfallentsorgung beinhaltet.
-</p>
+    
+  <ul> 
+    <li>2x täglich Frischfutter</li>
+    <li>unbegrenzt Heu (Premium Heu Activia)</li>
+
+
+    <li> 2x wöchentlich frische oder getrocknete Kräuter</li>
+
+    <li> auf Wunsch getreidefreies Trockenfutter</li>
+
+    <li> regelmäßige Erneuerung verschmutzter Einstreu</li>
+    <li>Gesundheitskontrolle der Tiere </li>
+    <li>Medikamentengabe bis 2x am Tag möglich </li>
+
+
+  </ul>
 
     <!-- <button type="button" class="btn btn-primary">Erfahre mehr!</button> -->
  
   </div>
-  <div class="sidebar col-md-3">
-  Öffnungszeiten
-
+  <div class="sidebar side col-md-4">
+  <?php require("./parts/sidebar.php"); ?>
   </div>
 
 

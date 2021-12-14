@@ -1,28 +1,39 @@
-
-nav{
-    background-color: #991724;
- 
-    a{
-        font-size: larger;
+.navbar-nav{
+    margin:auto;
+    a{ 
+        font-size: 1.25rem;
+        @include media-breakpoint-up(xl){
+     
+            font-size: 1.5rem;
+        }
+      
+       
        
     }
+}
+nav{
+    background-color: #991724;
+    
+   
+    
+    @include media-breakpoint-up(md){
+     
+        font-size: 1.25rem;
+    }
+     @include media-breakpoint-up(xl){
+     
+        font-size: 1.7rem;
+    }
+    
     a:hover{
         color:white;
     }
 }
 #link{
     color:$secondary;
+    
 }
 #link:hover{
     color:white;
 }
 
-// .brand
-// {
-//     display:none;
-//     color:white;
-//     @include media-breakpoint-up(lg){
-//        display:block;
-//     }   
-
-// }

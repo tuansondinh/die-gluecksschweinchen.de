@@ -1,9 +1,8 @@
-<section class="unter row">
+<section class="unterbringung row">
 
-  <div class="inhalt pt-4 bg-light col-md-9 order-md-2 justify-content-center">
+  <div class="inhalt bg-light col-md-8 order-md-2 justify-content-center">
 
-  
-    <p class="font-weight-bold"> Unterbringung:</p>
+      <p class="ueberschrift"> Unterbringung:</p>
   
     <p>
       Die Urlaubsgäste werden artgerecht in geräumigen Käfigen oder Gehegen untergebracht 
@@ -11,32 +10,26 @@
       und kommen nicht mit anderen Urlaubstieren in direkten Kontakt. 
     </p>
     <p>
-      Insbesondere bei Böckchen achten wir sehr darauf, 
-      dass sie ausreichend weit weg von Weibchen untergebracht sind.
+      Unkastrierte Böckchen nehmen wir auch gerne auf. Wir haben die Erfahrung gemacht, dass sich die Unterbringung im "Meerschweinchen-Gäste-Zimmer", 
+      in dem sich auch Weibchen befinden, unproblematischer gestaltet als vermutet: in allen Fällen blieb es bisher harmonisch unter den Böckchen.
     </p>
     <p>
       Bei uns herrschen im „Meerschweinchen-Gäste-Zimmer“ auch im Hochsommer
-      angenehme Temperaturen, da wir bei Bedarf ein Klimagerät im Raum verwenden.
+      angenehme Temperaturen, da der Raum vollklimatisiert ist.
         Meerschweinchen sind sehr hitzeempfindlich, ab 25 °C wird es für die Tiere unangenehm, 
-      ab Temperaturen über 30 °C droht ein Hitzeschlag!
+      ab Temperaturen über <span class="nowrap">30 °C</span> droht ein Hitzeschlag!
     </p>
-    <p>
+   <!-- <p>
       In der warmen Jahreszeit (April bis September) ist zudem stundenweiser Auslauf 
       unter Aufsicht in einem unserer Gartengehege möglich. 
       Dabei gewöhnen wir Tiere aus Innenhaltung zuvor an das Frischfutter,
       damit es nicht zu Verdauungsproblemen kommt.
-    </p>
-
-
-    <!-- <button type="button" class="btn btn-primary">Erfahre mehr!</button> -->
+    </p> -->
+    
+  
+  </div>
+  <div class=" sidebar side col-md-4">
+  <?php require("./parts/sidebar.php"); ?>
+  </div>
  
-  </div>
-  <div class="sidebar side col-md-3">
-  Öffnungszeiten
-
-
-  </div>
-
-
-
 </section>

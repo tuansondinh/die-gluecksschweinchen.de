@@ -1,0 +1,27 @@
+
+.sidebar{
+    padding:20px;
+    padding-top:30;
+    background-color: #ededed;
+    font-size: 1rem;
+    @include media-breakpoint-up(lg){
+        padding:40px;
+        padding-top:50px;
+      
+     
+    }
+    @include media-breakpoint-up(md){
+        // height:760px;
+        font-size: 0.75rem;
+    }
+    @include media-breakpoint-up(lg){
+        // height:760px;
+        // height:760px;
+        font-size: 1rem;
+    }
+    @include media-breakpoint-up(xl){
+        // height:760px;
+        // height:760px;
+      
+    }
+}

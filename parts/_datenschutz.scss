@@ -1,0 +1,42 @@
+$sencodary-height:2500px;
+.datenschutz{
+    .sidebar2{
+        padding:20px;
+    
+        background-color: #ededed;
+        font-size: 1rem;
+    
+        @include media-breakpoint-up(md){
+                padding:40px;
+            font-size: 0.75rem;
+            
+        }
+     
+        @include media-breakpoint-up(lg){
+            // height:760px;
+     
+            font-size: 1rem;
+        }
+        @include media-breakpoint-up(xl){
+            // height:760px;
+
+            font-size: 1.25rem;
+        }
+
+    }
+  .inhalt{
+    padding:20px;
+    @include media-breakpoint-up(md){
+
+        padding:50px;
+         
+    }
+
+
+         
+    
+
+  }  
+
+}
+

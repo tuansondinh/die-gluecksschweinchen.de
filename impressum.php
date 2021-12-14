@@ -14,6 +14,9 @@
     <div id="" class="container">
       <?php require("./parts/header.php"); ?>
       <?php require("./parts/navbar.php"); ?> 
+      <?php require("./parts/impressum.php"); ?> 
+      <?php require("./parts/slider.php"); ?>
+      <?php require("./parts/footer.php"); ?>
     
 
     </div>

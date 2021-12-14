@@ -15,6 +15,7 @@
       <?php require("./parts/header.php"); ?>
       <?php require("./parts/navbar.php"); ?> 
       <?php require("./parts/unterbringung.php"); ?> 
+      <?php require("./parts/slider.php"); ?>
       <?php require("./parts/footer.php"); ?>
     
 

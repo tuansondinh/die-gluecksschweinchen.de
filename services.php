@@ -15,6 +15,8 @@
       <?php require("./parts/header.php"); ?>
       <?php require("./parts/navbar.php"); ?> 
       <?php require("./parts/services.php"); ?>
+
+     <div class="order-1"> <?php require("./parts/slider.php"); ?> </div>
       <?php require("./parts/footer.php"); ?>
 
     </div>

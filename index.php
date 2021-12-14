@@ -2,6 +2,9 @@
 <!DOCTYPE html>
 <html lang="de">
   <head>
+  <head>
+  <title>Urlaubsbetreuung für Meerschweinchen</title>
+</head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="css/index.css"/>
@@ -15,6 +18,7 @@
       <?php require("./parts/header.php"); ?>
       <?php require("./parts/navbar.php"); ?> 
       <?php require("./parts/home.php"); ?>
+      <?php require("./parts/slider.php"); ?>
       <?php require("./parts/footer.php"); ?>
 
     </div>
