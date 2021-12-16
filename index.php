@@ -1,30 +1,24 @@
 <?php require("shared/inc/functions.inc.php")?>
 <!DOCTYPE html>
 <html lang="de">
-  <head>
-  <head>
-  <title>Urlaubsbetreuung für Meerschweinchen</title>
 </head>
+    <title>Urlaubsbetreuung für Meerschweinchen</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="css/index.css"/>
     <script src="https://kit.fontawesome.com/c74022c18c.js" crossorigin="anonymous"></script>  
+    <meta property="og:title" content="Urlaubsbetreuung für Meerschweinchen">
   </head>
 
   <body class=""> 
-
-   
     <div id="" class="container">
       <?php require("./parts/header.php"); ?>
       <?php require("./parts/navbar.php"); ?> 
       <?php require("./parts/home.php"); ?>
       <?php require("./parts/slider.php"); ?>
       <?php require("./parts/footer.php"); ?>
-
     </div>
-   
-
-
+  
     <script
       src="https://code.jquery.com/jquery-2.2.4.min.js"
       integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
