@@ -1,20 +1,19 @@
-$font-size-base: 1rem; /*gefunden in _variables.scss*/ 
+$font-size-base: 1rem; /*gefunden in _variables.scss*/
 $primary: blue;
 $light: white;
 $white: white;
 $secondary: #dedede;
 
 
-@import "../bootstrap-4.4.1/scss/bootstrap";
 @import "../parts/_navbar";
-@import "../parts/_sidebar"; 
+@import "../parts/_sidebar";
 @import "../parts/_unterbringung";
 @import "../parts/_datenschutz";
 @import "../parts/_footer";
 #page{
 
 }
-body{ 
+body{
     background-color:#bb727a;
 }
 .container{
@@ -22,37 +21,37 @@ body{
 }
 .inhalt{
     padding: 20px;
-   
+
     @include media-breakpoint-up(lg){
         padding: 50px;
     }
     li{
         font-size: 1rem;
-        
+
         @include media-breakpoint-up(lg){
-           
+
         }
     }
     p{
     font-size: 1rem;
                 @include media-breakpoint-up(lg){
-           
+
         }
             }
 
     div.inhalt{
         height:800px;
-        
+
         @include media-breakpoint-up(sm){
-                height:100px; 
+                height:100px;
             }
-        
+
         }
     .ueberschrift{
         font-weight:bold;
-        font-size: 1.25rem; 
+        font-size: 1.25rem;
         @include media-breakpoint-up(lg){
-          
+
         }
     }
 }
@@ -60,7 +59,7 @@ body{
     margin:0;
 }
 .slider{
-  
+
     background-color: #ad4343
 }
 

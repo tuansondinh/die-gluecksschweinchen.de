@@ -7,22 +7,18 @@
         <li data-target="#carouselExampleIndicators" data-slide-to="<?php echo e($i);?>" class="active"></li>
         <?php endfor;?>
 
-
     </ol>
 
-    
     <div class="carousel-inner">
         <div class="carousel-item active">
-        <img src="../images/bild1_comp.jpeg" class="d-block w-100" alt="...">
+        <img src="https://storage.googleapis.com/die-gluecksschweinchen.de/images/bild1_comp.jpeg" class="d-block w-100" alt="...">
         </div>
         <?php
         for ($i=2; $i<=31; $i++):?>
        <div class="carousel-item ">
-        <img src="../images/bild<?php echo e($i);?>.jpg" class="d-block w-100" alt="...">
+        <img src="https://storage.googleapis.com/die-gluecksschweinchen.de/images/bild<?php echo e($i);?>.jpg" class="d-block w-100" alt="...">
         </div>
         <?php endfor;?>
-      
-       
 
     </div>
 

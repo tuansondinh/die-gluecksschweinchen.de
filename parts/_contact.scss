@@ -1,12 +1,12 @@
-.contactus{ 
+.contactus{
     padding-top: 100px;
     padding-bottom:100px;
-    // background-image: url("../images/contact-bg.png");
+    // background-image: url("https://storage.googleapis.com/die-gluecksschweinchen.de/images/contact-bg.png");
     background-color: grey;
     background-size: cover;
-    color:white; 
-    
-   
+    color:white;
+
+
     textarea{
         height:6rem;
         @include media-breakpoint-up(sm){
