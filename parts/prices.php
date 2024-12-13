@@ -3,9 +3,9 @@
   <div class="inhalt bg-light col-md-8 order-md-2 justify-content-center">
 
 
-<p class="ueberschrift">Preise (ab 01.01.2023):</p>
+<p class="ueberschrift">Preise (ab 01.01.2025):</p>
 
-<p>Aufgrund der enormen derzeitigen Entwicklungen im Hinblick auf die Gemüse-, Heu- und Einstreupreise sowie der erheblich gestiegenen Unterhaltungs- und Energiekosten berechnen wir zukünftig <span class="font-weight-bold">5,50 EUR pro Nacht und Tier</span> für die Betreuung.</p>
+<p>Aufgrund der enormen derzeitigen Entwicklungen im Hinblick auf die Gemüse-, Heu- und Einstreupreise sowie der erheblich gestiegenen Unterhaltungs- und Energiekosten berechnen wir zukünftig <span class="font-weight-bold">6,00 EUR pro Nacht und Tier</span> für die Betreuung.</p>
 
 <p>Sonderabsprachen bei größeren Gruppen und längeren Aufenthalten möglich.</p>
 

@@ -15,6 +15,7 @@
     <p class="text-center mb-4 mt-md-4 mb-md-5">
       Bring- und Abholzeiten nach vorheriger Vereinbarung
      </p>
+     <p> Kein Bringen und Abholen möglich am 24.12., 25.12. und 26.12. </p>
 
 <div class="row ">
   <div class="col pr-2 pl-2">
